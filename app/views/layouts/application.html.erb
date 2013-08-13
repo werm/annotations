@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Annotate</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+  <div class="container" style="width: auto;">
+    <a class="navbar-brand" href="#">Annotations</a>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#" id="get_coords">Get XY</a></li>
+    </ul>
+  </div>
+</div>
+<div class="container" id="main">
+  <%= yield %>
+</div>
+</body>
+</html>

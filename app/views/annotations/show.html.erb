@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Point:</strong>
+  <%= @annotation.point_id %>
+</p>
+
+<p>
+  <strong>Top:</strong>
+  <%= @annotation.top %>
+</p>
+
+<p>
+  <strong>Left:</strong>
+  <%= @annotation.left %>
+</p>
+
+<p>
+  <strong>Note:</strong>
+  <%= @annotation.note %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @annotation.url %>
+</p>
+
+<%= link_to 'Edit', edit_annotation_path(@annotation) %> |
+<%= link_to 'Back', annotations_path %>

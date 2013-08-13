@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  point_id: 1
+  top: 1
+  left: 1
+  note: MyText
+  url: MyString
+
+two:
+  point_id: 1
+  top: 1
+  left: 1
+  note: MyText
+  url: MyString
